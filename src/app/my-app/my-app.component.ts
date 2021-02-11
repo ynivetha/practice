@@ -7,7 +7,7 @@ import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 })
 export class MyAppComponent implements OnInit, OnDestroy {
   @Input() age;
-  names = [ 'Nivetha', "sahan", "braveen", "Isuru"];
+  names = [ 'Nivetha', "sahan", "braveen", "Isuru","n","m","b"];
   names1 = [{name:"nivetha", job:"SE"},{name:"nivetha", job:"SE"}];
   constructor() { }
 
