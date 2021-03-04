@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: basic-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: niv"
+    kubernetes.io/ingress.global-static-ip-name: "niv"
 spec:
   backend:
     serviceName: practice-k8s-nnwhw
