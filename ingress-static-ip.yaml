@@ -22,7 +22,7 @@ metadata:
     app: hello
 spec:
   backend:
-    serviceName: practice-k8s-nnwhw
+    serviceName: helloweb-backend
     servicePort: 80
 ---
 apiVersion: v1
